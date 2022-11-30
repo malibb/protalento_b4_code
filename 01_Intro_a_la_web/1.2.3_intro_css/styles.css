@@ -1,0 +1,23 @@
+h1 {
+    color: blue;
+}
+
+h2 {
+    color: yellow;
+}
+
+h3 {
+    color: red;
+}
+
+h2 {
+    color: gray;
+}
+
+.titulo-especial {
+    color: #6F0D37;
+}
+
+.letra-cursiva{
+    font-style: italic;
+}
