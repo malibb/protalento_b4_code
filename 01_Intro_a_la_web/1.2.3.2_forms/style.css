@@ -3,4 +3,30 @@
     padding: 0;
     font-size: 1em;
     font-family: inherit;
+    text-align: center;
+    font-family: "Sofia", sans-serif;
 }
+
+body {
+    background-image: url("assets/hand-painted-watercolor-pastel-sky-background_23-2148902771.webp");
+}
+.header, .main, .footer{
+    margin: 24px;
+}
+
+.input_label{
+    margin: 12px;
+    /* height: 300px; */
+}
+
+.label, .input {
+    display: block;
+}
+
+.input, table {
+    margin: auto;
+}
+/*
+.input{
+    margin-left: 510px;
+} */

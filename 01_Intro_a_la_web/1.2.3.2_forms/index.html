@@ -7,26 +7,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi primer formulario</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <h1>Mi Sitio Web</h1>
     </header>
-    <main>
+    <main class="main">
         <article>
             <form name="mi-form" method="" action="">
-                <label for="name">Nombre:</label>
-                <input class="input" id="name" name="name" type="text" />
-                <br />
-                <label for="email">Email:</label>
-                <input class="input" id="email" name="email" type="email" />
-                <br />
-                <label for="password">Contraseña:</label>
-                <input class="input" id="password" name="password" type="password" />
-                <br />
-                <label for="description">Descripción:</label>
-                <textarea name="description" id="description" cols="40" rows="7"></textarea>
+                <div class="input_label">
+                    <label class="label" for="name">Nombre:</label>
+                    <input class="input" id="name" name="name" type="text" />
+                </div>
+                <div class="input_label">
+                    <label class="label" for="email">Email:</label>
+                    <input class="input" id="email" name="email" type="email" />
+                </div>
+                <div class="input_label">
+                    <label class="label" for="password">Contraseña:</label>
+                    <input class="input" id="password" name="password" type="password" />
+                </div>
+                <div class="input_label">
+                    <label class="label" for="description">Descripción:</label>
+                    <textarea name="description" id="description" cols="40" rows="7"></textarea>
+                </div>
             </form>
         </article>
         <article>
@@ -46,7 +52,7 @@
             </table>
         </article>
     </main>
-    <footer>
+    <footer class="footer">
         <h6><a href="http://" target="_blank" rel="noopener noreferrer">F</a></h6>
         <h6><a href="http://" target="_blank" rel="noopener noreferrer">T</a></h6>
         <h6><a href="http://" target="_blank" rel="noopener noreferrer">I</a></h6>
