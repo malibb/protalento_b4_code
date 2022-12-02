@@ -1,5 +1,15 @@
-h1 {
+* {
+    color: #a2d2ff;
+    background-color:darkblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align:center;
+    text-transform: uppercase;
+}
+
+p {
     color: blue;
+    width: 1000px;
 }
 
 h2 {
@@ -20,4 +30,12 @@ h2 {
 
 .letra-cursiva{
     font-style: italic;
+}
+
+.button{
+    border-radius: 8px;
+}
+
+#parrafo-unico{
+    color: white;
 }
