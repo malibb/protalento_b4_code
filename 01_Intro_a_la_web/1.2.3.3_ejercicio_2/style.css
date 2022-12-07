@@ -1,15 +1,38 @@
-.chico {
-    width: 100px;
-    height: 100px;
-    color: #124334;
-    
+body{
+    padding: 10px 20px;
+    background-color: gray;
 }
 
 .azul {
-    background-color: blue;
+    background-color: aqua;
 }
 
-.mediano {
-    width: 300px;
+.chico{
+    width: 100%;
+    height: 200px;
+    margin: 20px 0px;
+}
+
+.mediano{
+    width: 49%;
+    height: 250px;
+    float: left;
+}
+
+.grande {
+    width: 100%;
     height: 300px;
+    margin: 20px 0px;
+}
+
+.container{
+    overflow: hidden;
+}
+
+.margin-derecho{
+    margin-right: 2%;
+}
+
+.margin-abajo{
+    margin-bottom: 10px;
 }
