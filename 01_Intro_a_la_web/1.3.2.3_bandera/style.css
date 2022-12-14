@@ -1,0 +1,60 @@
+.flex{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+}
+
+.azul {
+    background-color: blue;
+}
+
+.rojo {
+    background-color: red;
+}
+
+.blanco {
+    background-color: white;
+}
+
+.grande {
+    width: 32vw;
+    height: 16vw;
+
+}
+
+.pequeno {
+    height: 16vw;
+    width: 16vw;
+}
+
+.mb {
+    margin-bottom: 2vw;
+}
+
+.pb {
+    padding-bottom: 2vw;
+}
+
+.mt {
+    margin-top: 2vw;
+}
+
+.pt {
+    padding-top: 2vw;
+}
+
+.mr {
+    margin-right: 2vw;
+}
+
+.pr {
+    padding-right: 2vw;
+}
+
+.ml {
+    margin-left: 2vw;
+}
+
+.pl {
+    padding-left: 2vw;
+}
