@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+
+body {
+    background-color: #F4F4F4;
+}
+
+header {
+    height: 127px;
+    background-color: #D9D9D9;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+h1 {
+    margin: 24px;
+}
+
+.main {
+    display: flex;
+}
+
+.main_personal{
+    background-color: #ff86e5;
+}
+
+.hijo {
+    background-color: #D9D9D9;
+    height: 80vh;
+    margin: 48px;
+}
+
+#hijo_uno{
+    background-color: bisque;
+}
+
+.uno {
+    position: relative;
+}
+
+.dos {
+    flex-grow: 1;
+}
+#boton_raton{
+    position: relative;
+}
+img{
+    position: absolute;
+}
+.contenedor_img{
+    margin: 10px;
+}
+#img_raton{
+    border-style: solid;
+    border-width: 30px;
+}
+#boton_raton{
+    display: none;
+    /* display: block; */
+    top: 300px;
+    left: 132px;
+}
+
+.contenedor_img:hover {
+    filter: blur(2px);
+    /* Como le hago para ponerle al boton un display block */
+}
+
+@media screen and (max-width: 1024px) {
+    .main {
+        flex-direction: column;
+    }
+
+    .uno {
+        height: 570px;
+    }
+    .dos {
+        height: 310px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .main {
+        display: flex;
+    }
+}
+@media screen and (max-width: 480px) {
+    .hijo {
+        height: 80vh;
+    }
+}
+@media screen and (max-width: 320px) {}
