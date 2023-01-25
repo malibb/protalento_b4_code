@@ -1,0 +1,22 @@
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+    text-align: center;
+    margin: 0px 24px;
+}
+
+main {
+    margin: 0px 24px;
+}
+
+.ejercicio{
+    margin: 12px 24px;
+}
+
+footer {
+    position: sticky;
+    text-align: center;
+    margin: 0px 24px;
+}
