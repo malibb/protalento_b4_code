@@ -5,6 +5,52 @@
 // esPar
 // -> dividiendoNumeros
 
+let precioFinal = 0;
+let precioMensualFinal = 0;
+const programa = prompt("¿qué nivel ocupas o programa?")
+if (programa === "Course" || programa === "Carrera" || programa === "Master") {
+    const beca = prompt("¿tienes beca?, si si cual, si no dejar vacio");
+    if (beca === "Beca Facebook" || beca === "Beca Google" || beca === "Beca Jesua" || beca === "") {
+        if (programa === "Course") {
+            precioFinal = 4999;
+        } else if (programa === "Carrera") {
+            precioFinal = 3999;
+        } else if (programa === "Master") {
+            precioFinal = 2999;
+        }
+
+        if (beca === "Beca Facebook") {
+            precioFinal = precioFinal * (80/100);
+        } else if (beca === "Beca Google") {
+            precioFinal = precioFinal * (85/100);
+        } else if (beca === "Beca Jesua") {
+            precioFinal = precioFinal * (50/100);
+        }
+
+        precioMensualFinal = precioFinal;
+
+        if (programa === "Course") {
+            precioFinal = precioMensualFinal * 2;
+        } else if (programa === "Carrera") {
+            precioFinal = precioMensualFinal * 6;
+        } else if (programa === "Master") {
+            precioFinal = precioMensualFinal * 12;
+        }
+        /* let texto = ""
+        if (beca !== "") {
+            texto = "con beca"
+        } 
+        valor = condicion ? valor devuelto si es verdadera : valor devuelto si es falsa
+        */
+        alert(`Precio mensual ${beca !== "" ? "con beca" : ""} :${precioMensualFinal} Precio total: ${precioFinal}`)
+    } else {
+        alert('opcion invalida')
+    }
+} else {
+    alert('opcion invalida')
+}
+
+
 function esDivisible1() {
     const numeroIngresado = prompt("Dame un número y te diré si es divisible entre dos.");
     // console.log(typeof numeroIngresado);
