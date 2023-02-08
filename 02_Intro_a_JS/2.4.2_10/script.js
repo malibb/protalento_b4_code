@@ -26,7 +26,6 @@ const myFunction = () => {
         contadorLocal = 0;
         console.log('cero');
     } else {
-        debugger;
         console.log(typeof contadorLocal);
         contadorLocal = parseInt(contadorLocal);
     }

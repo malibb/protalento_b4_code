@@ -21,5 +21,5 @@ const myFunction = () => {
 
 const consultarSaldo = () => {
     cuentas = JSON.parse(localStorage.getItem('cuentas'));
-    alert(cuentas[0].saldo);
+    alert(cuentas[0]["saldo"]);
 }
