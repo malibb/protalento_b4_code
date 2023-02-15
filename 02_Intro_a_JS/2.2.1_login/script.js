@@ -37,7 +37,8 @@ function createInputs () {
 
 const createInputs = (inputs) => {
     const sectionInputsHTML = document.getElementById('section--inputs');
-    /* const myInputs = [];
+    /* 
+    const myInputs = [];
     for(input of inputs) {
         const myInput = document.createElement("INPUT");
         for(property in input){
@@ -49,7 +50,8 @@ const createInputs = (inputs) => {
         
     };
      */
-    /* const functionMap = (input) => {
+    /* 
+    const functionMap = (input) => {
         const myInput = document.createElement("INPUT");
         for(property in input){
            myInput.setAttribute(property, input[property]);
