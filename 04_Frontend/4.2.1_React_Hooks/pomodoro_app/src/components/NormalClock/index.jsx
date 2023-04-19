@@ -62,7 +62,7 @@ actualizar las dependencias.
             <p>{name2}</p> */}
 
             <span>
-                {/* <span className='hour'>{hour}:</span> */}
+                <span className='hour'>{hour}:</span>
                 <span className='minute'>{minutes}:</span>
                 <span className='minute'>{seconds}</span>
             </span>
