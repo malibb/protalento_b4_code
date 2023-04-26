@@ -1,0 +1,20 @@
+.settings {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 1.8rem;
+  }
+  
+  .settings label {
+    color: white;
+  }
+  
+  .settings input {
+    padding: 20px;
+    border-radius: 4px;
+    color: black;
+    border: transparent;
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
