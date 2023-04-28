@@ -1,10 +1,12 @@
 import './styles.css'
+import { Link } from 'react-router-dom'
 
 function Inicio() {
     return (
         <div className="inicio-container">
             <h2>Picture of the day</h2>
-            <button className="btn-inicio">Ver foto del día</button>
+            <Link to={'/photoToday'}> Ver foto del día</Link>
+            {/* <button className="btn-inicio">Ver foto del día</button> */}
         </div>
     )
 }
