@@ -1,0 +1,10 @@
+.inicio-container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+    /* flex-direction: column;
+    flex-wrap: nowrap; */
+    justify-content: center;
+    align-items: center;
+}
